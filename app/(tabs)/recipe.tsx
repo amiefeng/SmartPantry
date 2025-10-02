@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { Text, View } from '@/components/Themed';
+import React, { useState } from 'react';
+import { ScrollView, StyleSheet, TouchableOpacity } from 'react-native';
 
 const SAMPLE_RECIPES = [
   {
@@ -77,7 +77,6 @@ export default function RecipeTabScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Recipe Recommendations</Text>
         <Text style={styles.subtitle}>Need new ideas? Discover delicious meals here!</Text>
       </View>
       
